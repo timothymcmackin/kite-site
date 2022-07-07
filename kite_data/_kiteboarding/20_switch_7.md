@@ -1,0 +1,12 @@
+---
+make: Cabrinha
+model: Switchblade
+size: 7m
+obtained: Blown Kiteboarding
+---
+
+Opened up this kite on my 40th birthday, a big wind day, 30 mph or more.
+Scary, but I survived.
+
+I was the last in from the water and the Kitecation people had a cake and sang happy birthday to me.
+Happy memory.
