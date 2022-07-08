@@ -3,6 +3,8 @@ make: Cabrinha
 model: Switchblade
 size: 7m
 obtained: Blown Kiteboarding
+images:
+ - kiteboarding/20switch7_1_sm.jpg
 ---
 
 Opened up this kite on my 40th birthday, a big wind day, 30 mph or more.
