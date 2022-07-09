@@ -22,7 +22,7 @@ permalink: /kiteboarding/
   </td>
   <td>{{ kite.content | markdownify }}</td>
   <td>
-    <img src="{{ site.baseurl}}/assets/images/{{ kite.images | first }}"/>
+    <img src="{{ site.baseurl }}/assets/images/{{ kite.images | first }}"/>
   </td>
 </tr>
 {% endfor %}
