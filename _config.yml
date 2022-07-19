@@ -28,7 +28,7 @@ twitter_username: timothymcmackin
 github_username:  timothymcmackin
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
