@@ -13,13 +13,13 @@ permalink: /single/
 {% for kite in site.single %}
 <tr>
   <td>
+    {% if kite.name %}
+      <div class="kiteName">{{ kite.name }}</div>
+    {% endif %}
     <ul>
       <li>Make: {{ kite.make }}</li>
       <li>Model: {{ kite.model }}</li>
       <li>Obtained: {{ kite.obtained }}</li>
-      {% if kite.name %}
-        <li>Name: {{ kite.name }}</li>
-      {% endif %}
     </ul>
   </td>
   <td>{{ kite.content | markdownify }}</td>
