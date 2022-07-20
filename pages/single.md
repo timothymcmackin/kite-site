@@ -24,7 +24,13 @@ permalink: /single/
   </td>
   <td>{{ kite.content | markdownify }}</td>
   <td>
-    <img src="{{ site.baseurl }}/assets/images/{{ kite.images | first }}"/>
+    {% for image in kite.images %}
+      <a class="spotlight"
+        href="{{ site.baseurl }}/assets/images/{{ image }}"
+        title="{{ kite.content | markdownify }}">
+        <img src="{{ site.baseurl }}/assets/images/{{ image }}">
+      </a>
+    {% endfor %}
   </td>
 </tr>
 {% endfor %}
