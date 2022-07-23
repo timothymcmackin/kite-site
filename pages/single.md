@@ -4,6 +4,21 @@ title: Single-line kites
 permalink: /single/
 ---
 
+<script>
+const gallery = [
+{% for kite in site.single %}
+{% for image in kite.images %}
+  { src: "{{ site.baseurl }}/assets/images/{{ image }}",
+    title: "{{ kite.content | markdownify | newline_to_br | strip_newlines }}" },
+{% endfor %}
+{% endfor %}
+];
+
+window.showKites = function(idx) {
+  Spotlight.show(gallery /*, options */);
+}
+</script>
+
 <table>
 <tr>
   <th>Details</th>
@@ -25,11 +40,11 @@ permalink: /single/
   <td>{{ kite.content | markdownify }}</td>
   <td>
     {% for image in kite.images %}
-      <a class="spotlight"
-        href="{{ site.baseurl }}/assets/images/{{ image }}"
-        title="{{ kite.content | markdownify }}">
+      <div onClick="window.showKites()">
+        <!-- href="{{ site.baseurl }}/assets/images/{{ image }}" -->
+        <!-- title="{{ kite.content | markdownify }}"> -->
         <img src="{{ site.baseurl }}/assets/images/{{ image }}">
-      </a>
+      </div>
     {% endfor %}
   </td>
 </tr>
