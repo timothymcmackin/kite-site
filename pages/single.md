@@ -26,9 +26,9 @@ window.showKites = function(idx) {
       // const descriptionElement = document.querySelector('#spotlight .spl-description');
       // titleElement.innerHTML = decodeURIComponent(titleElement.innerText);
 
-      const html = document.querySelector('#description_' + (index - 1)).innerHTML;
-      console.log(html);
-      console.log("index: ", index - 1);
+      let html = document.querySelector('#description_' + (index - 1)).innerHTML;
+      // Remove trailing "
+      html = html.substr(0, html.length - 1);
       // both lines needed - can't figure out why
       titleElement.innerHTML = decodeURIComponent(html);
       titleElement.innerHTML = decodeURIComponent(html);
