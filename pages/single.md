@@ -10,7 +10,7 @@ const gallery = [
 {% for image in kite.images %}
   {
     src: "{{ site.baseurl }}/assets/images/{{ image }}",
-    title: "hi",
+    title: "loading description...",
   },
 {% endfor %}
 {% endfor %}
@@ -63,7 +63,7 @@ window.showKites = function(idx) {
     {% for image in kite.images %}
       <div onClick="window.showKites({{ imageCounter }})">
         <img src="{{ site.baseurl }}/assets/images/{{ image }}">
-        <div id="description_{{ imageCounter}}" style="display:none;">{{ kite.content | markdownify | newline_to_br | strip_newlines | strip_html }}"</div>
+        <div id="description_{{ imageCounter}}" style="display:none;">{{ kite.content | markdownify }}"</div>
       </div>
       {% assign imageCounter = imageCounter | plus: 1 %}
     {% endfor %}
