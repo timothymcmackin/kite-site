@@ -29,8 +29,8 @@ github_username:  timothymcmackin
 
 # Build settings
 # theme: minima
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
 
 defaults:
   - scope:
