@@ -38,36 +38,32 @@ window.showKites = function(idx) {
   });
 }
 </script>
-
-<table>
-<tr>
-  <th>Details</th>
-  <th>Description</th>
-  <th>Photos</th>
-</tr>
-{% assign imageCounter = 0 %}
-{% for kite in site.single %}
-<tr>
-  <td>
-    {% if kite.name %}
-      <div class="kiteName">{{ kite.name }}</div>
-    {% endif %}
-    <ul>
-      <li>Make: {{ kite.make }}</li>
-      <li>Model: {{ kite.model }}</li>
-      <li>Obtained: {{ kite.obtained }}</li>
-    </ul>
-  </td>
-  <td>{{ kite.content | markdownify }}</td>
-  <td>
-    {% for image in kite.images %}
-      <div onClick="window.showKites({{ imageCounter }})">
-        <img src="{{ site.baseurl }}/assets/images/{{ image }}">
-        <div id="description_{{ imageCounter}}" style="display:none;">{{ kite.content | markdownify }}"</div>
-      </div>
-      {% assign imageCounter = imageCounter | plus: 1 %}
-    {% endfor %}
-  </td>
-</tr>
-{% endfor %}
-</table>
+<div class="container">
+  {% assign imageCounter = 0 %}
+  {% for kite in site.single %}
+  <div class="row kiteRow">
+    <div class="col">
+      {% if kite.name %}
+        <div class="kiteName">{{ kite.name }}</div>
+      {% endif %}
+      <ul>
+        <li>Make: {{ kite.make }}</li>
+        <li>Model: {{ kite.model }}</li>
+        <li>Obtained: {{ kite.obtained }}</li>
+      </ul>
+    </div>
+    <div class="col">
+      {{ kite.content | markdownify }}
+    </div>
+    <div class="col">
+      {% for image in kite.images %}
+        <div onClick="window.showKites({{ imageCounter }})">
+          <img src="{{ site.baseurl }}/assets/images/{{ image }}" class="kiteThumb">
+          <div id="description_{{ imageCounter}}" style="display:none;">{{ kite.content | markdownify }}"</div>
+        </div>
+        {% assign imageCounter = imageCounter | plus: 1 %}
+      {% endfor %}
+    </div>
+  </div>
+  {% endfor %}
+</div>
