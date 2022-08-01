@@ -43,6 +43,7 @@ collections_dir: kite_data
 collections:
   - kiteboarding
   - single
+  - dual
 
 # Exclude from processing.
 # The following items will not be processed, by default.
