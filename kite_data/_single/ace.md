@@ -7,6 +7,7 @@ images:
  - single/ace_1_sm.jpg
  - single/ace_2_sm.jpg
  - single/ace_3_sm.jpg
+ - single/ace_4_sm.jpg
 ---
 
 This kite has a beautiful printed cloth sail.
