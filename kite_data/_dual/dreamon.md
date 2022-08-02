@@ -3,6 +3,7 @@ make: Skydog
 model: Dream On
 obtained: Flying Smiles
 trim: STD
+givenAway: true
 name:
 images:
  - dual/skydog_dreamon_white_l-2365749310.jpg

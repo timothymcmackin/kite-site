@@ -3,6 +3,7 @@ make: Prism
 model: Quantum
 trim: std
 obtained: Kitty Hawk Kites
+givenAway: true
 name:
 images:
  - dual/quantum1.jpg
