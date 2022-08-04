@@ -36,4 +36,42 @@ layout: home
   {% endif %}
 {% endfor %}
 
-This is a catalog of the {{ kiteTotal }} kites that are in my collection and {{ givenAway }} of the kites that I've given away.
+This is a catalog of the {{ kiteTotal }} kites that are in my collection and a few ({{ givenAway }}) of the kites that I've given away.
+
+<style type="text/css">
+a div {
+}
+
+a img {
+  max-height: 200px
+}
+</style>
+
+<div class="container">
+  <div class="row">
+    <div class="col" align="center">
+      <a href="./dual">
+        <div>Dual-line kites</div><br/>
+        <img src="{{ site.baseurl }}/assets/images/dual/talonv3.jpg">
+      </a>
+    </div>
+    <div class="col" align="center">
+      <a href="./single">
+        <div>Single-line kites</div><br/>
+        <img src="{{ site.baseurl }}/assets/images/single/skysong_1_sm.jpg">
+      </a>
+    </div>
+    <div class="col" align="center">
+      <a href="./kiteboarding">
+        <div>Kiteboarding kites</div><br/>
+        <img src="{{ site.baseurl }}/assets/images/kiteboarding/12switch12_2_sm.jpg">
+      </a>
+    </div>
+    <div class="col" align="center">
+      <a href="./power">
+        <div>Power kites</div><br/>
+        <img src="{{ site.baseurl }}/assets/images/power/hornet5_stock_1_sm.jpg">
+      </a>
+    </div>
+  </div>
+</div>
