@@ -28,5 +28,12 @@ layout: home
     {% assign kiteTotal = kiteTotal | plus: 1 %}
   {% endif %}
 {% endfor %}
+{% for kite in site.power %}
+  {% if kite.givenAway %}
+    {% assign givenAway = givenAway | plus: 1 %}
+  {% else %}
+    {% assign kiteTotal = kiteTotal | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
-This is a catalog of the {{ kiteTotal }} kites that are in my collection and the {{ givenAway }} kites that I've given away.
+This is a catalog of the {{ kiteTotal }} kites that are in my collection and {{ givenAway }} of the kites that I've given away.
