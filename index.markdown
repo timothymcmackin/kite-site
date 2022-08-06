@@ -35,6 +35,13 @@ layout: home
     {% assign kiteTotal = kiteTotal | plus: 1 %}
   {% endif %}
 {% endfor %}
+{% for kite in site.quad %}
+  {% if kite.givenAway %}
+    {% assign givenAway = givenAway | plus: 1 %}
+  {% else %}
+    {% assign kiteTotal = kiteTotal | plus: 1 %}
+  {% endif %}
+{% endfor %}
 
 This is a catalog of the {{ kiteTotal }} kites that are in my collection and a few ({{ givenAway }}) of the kites that I've given away.
 
@@ -71,6 +78,12 @@ a img {
       <a href="./power">
         <div>Power kites</div><br/>
         <img src="{{ site.baseurl }}/assets/images/power/hornet5_stock_1_sm.jpg">
+      </a>
+    </div>
+    <div class="col" align="center">
+      <a href="./power">
+        <div>Quad-line kites</div><br/>
+        <img src="{{ site.baseurl }}/assets/images/quad/supersonic_1_sm.jpg">
       </a>
     </div>
   </div>

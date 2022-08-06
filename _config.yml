@@ -45,6 +45,7 @@ collections:
   - single
   - dual
   - power
+  - quad
 
 # Exclude from processing.
 # The following items will not be processed, by default.
