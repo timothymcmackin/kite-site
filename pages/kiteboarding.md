@@ -59,11 +59,11 @@ window.showKites = function(idx) {
     </div>
     <div class="col">
       {% for image in kite.images %}
+        {% assign imageCounter = imageCounter | plus: 1 %}
         <div onClick="window.showKites({{ imageCounter }})">
           <img src="{{ site.baseurl }}/assets/images/{{ image }}" class="kiteThumb">
           <div id="description_{{ imageCounter}}" style="display:none;">{{ kite.content | markdownify }}"</div>
         </div>
-        {% assign imageCounter = imageCounter | plus: 1 %}
       {% endfor %}
     </div>
   </div>
