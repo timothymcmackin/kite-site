@@ -5,6 +5,7 @@ size: 2m
 obtained: Some rando online
 name: The Don
 images:
+ - power/hornet2m_2.jpg
  - power/hornet2m_1.jpg
 ---
 
