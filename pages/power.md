@@ -49,7 +49,7 @@ window.showKites = function(idx) {
       <ul>
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
-        <li>Trim: {{ kite.size }}</li>
+        <li>Size: {{ kite.size }}</li>
         <li>Obtained: {{ kite.obtained }}</li>
       </ul>
     </div>
