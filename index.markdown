@@ -81,7 +81,7 @@ a img {
       </a>
     </div>
     <div class="col" align="center">
-      <a href="./power">
+      <a href="./quad">
         <div>Quad-line kites</div><br/>
         <img src="{{ site.baseurl }}/assets/images/quad/supersonic_1_sm.jpg">
       </a>
