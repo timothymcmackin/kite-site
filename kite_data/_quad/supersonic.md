@@ -8,4 +8,4 @@ images:
 ---
 
 The Supersonic is for one thing only: speed.
-It's handles like a greased pig, but point it in the right direction and hit the gas and it's gone.
+It handles like a greased pig, but point it in the right direction and hit the gas and it's gone.
