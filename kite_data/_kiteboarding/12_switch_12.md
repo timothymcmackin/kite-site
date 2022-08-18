@@ -2,6 +2,7 @@
 make: Cabrinha
 model: Switchblade
 size: 12m
+edition: 2012
 obtained: Kitty Hawk Kites
 images:
  - kiteboarding/12switch12_1_sm.jpg

@@ -2,6 +2,7 @@
 make: Slingshot
 model: Ghost
 size: 8m
+edition: v1
 obtained: kiteboarding.com
 images:
  - kiteboarding/v1ghost8_1_sm.jpg

@@ -51,6 +51,7 @@ window.showKites = function(idx) {
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
         <li>Size: {{ kite.size }}</li>
+        <li>Edition: {{ kite.edition }}</li>
         <li>Obtained: {{ kite.obtained }}</li>
       </ul>
     </div>

@@ -2,6 +2,7 @@
 make: Cabrinha
 model: Switchblade
 size: 7m
+edition: 2020
 obtained: Blown Kiteboarding
 images:
  - kiteboarding/20switch7_1_sm.jpg
