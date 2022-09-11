@@ -47,7 +47,7 @@ window.showKites = function(idx) {
       {% if kite.name %}
         <div class="kiteName">{{ kite.name }}</div>
       {% endif %}
-      <ul>
+      <ul class="kite-detail-list">
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
         <li>Size: {{ kite.size }}</li>

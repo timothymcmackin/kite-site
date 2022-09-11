@@ -43,7 +43,7 @@ window.showKites = function(idx) {
   {% for kite in site.quad %}
   <div class="row kiteRow">
     <div class="col">
-      <ul>
+      <ul class="kite-detail-list">
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
         <li>Model: {{ kite.trim }}</li>
