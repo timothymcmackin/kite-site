@@ -5,6 +5,7 @@ obtained: Flying Smiles Kites
 trim: Full sail
 images:
  - quad/fullsail_1_sm.jpg
+ - quad/fullsail_2_sm.jpg
 ---
 
 The Rev B-Series are the best quad-line precision kites around.
