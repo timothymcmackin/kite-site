@@ -10,5 +10,5 @@ images:
 ---
 
 Was really impressed by this kite when I flew it in a demo.
-Eventually bought one for Lyndsey and Eric so they've have a good dual and to support Flying Smiles during the pandemic.
+Eventually bought one for Lyndsey and Eric so they'd have a good dualie and to support Flying Smiles during the pandemic.
 
