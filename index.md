@@ -52,7 +52,7 @@ This is a catalog of the {{ kiteTotal }} kites that are in my collection and a f
 {% for type in kite_types %}
   <div class="type">
     <a href="{{ type.href }}">
-      <img src="{{ type.photo }}">
+      <img src="{{ site.baseurl }}{{ type.photo }}">
     </a>
     <div class="label">
       {{ type.name }}
