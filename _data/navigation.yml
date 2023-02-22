@@ -1,0 +1,11 @@
+main:
+  - title: "Dual-line kites"
+    url: /dual/
+  - title: "Kiteboarding kites"
+    url: /kiteboarding/
+  - title: "Single-line kites"
+    url: /single/
+  - title: "Quad-line kites"
+    url: /quad/
+  - title: "Power kites"
+    url: /power/

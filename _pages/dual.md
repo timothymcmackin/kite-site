@@ -1,12 +1,12 @@
 ---
-layout: page
-title: Quad-line kites
-permalink: /quad/
+layout: default
+title: Dual-line kites
+permalink: /dual/
 ---
 
 <script>
 const gallery = [
-{% for kite in site.quad %}
+{% for kite in site.dual %}
 {% for image in kite.images %}
   {
     src: "{{ site.baseurl }}/assets/images/{{ image }}",
@@ -38,11 +38,19 @@ window.showKites = function(idx) {
   });
 }
 </script>
-<div class="container">
-  {% assign imageCounter = 0 %}
-  {% for kite in site.quad %}
-  <div class="row kiteRow">
-    <div class="col">
+
+{% assign imageCounter = 0 %}
+<div class="kite-detail-container">
+{% for kite in site.dual %}
+  <div class="kiteRow">
+    <div>
+      <div class="kiteName">
+        {% if kite.name %}
+          {{ kite.name }}
+        {% else %}
+          {{ kite.make }} {{ kite.model }} {{ kite.trim }}
+        {% endif %}
+      </div>
       <ul class="kite-detail-list">
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
@@ -50,10 +58,10 @@ window.showKites = function(idx) {
         <li>Obtained: {{ kite.obtained }}</li>
       </ul>
     </div>
-    <div class="col">
+    <div class="kiteContent">
       {{ kite.content | markdownify }}
     </div>
-    <div class="col">
+    <div class="kiteImages">
       {% for image in kite.images %}
         {% assign imageCounter = imageCounter | plus: 1 %}
         <div onClick="window.showKites({{ imageCounter }})">
@@ -63,5 +71,5 @@ window.showKites = function(idx) {
       {% endfor %}
     </div>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>

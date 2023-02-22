@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: Single-line kites
 permalink: /single/
 ---
@@ -38,24 +38,29 @@ window.showKites = function(idx) {
   });
 }
 </script>
-<div class="container">
-  {% assign imageCounter = 0 %}
-  {% for kite in site.single %}
-  <div class="row kiteRow">
-    <div class="col">
-      {% if kite.name %}
-        <div class="kiteName">{{ kite.name }}</div>
-      {% endif %}
+
+{% assign imageCounter = 0 %}
+<div class="kite-detail-container">
+{% for kite in site.single %}
+  <div class="kiteRow">
+    <div>
+      <div class="kiteName">
+        {% if kite.name %}
+          {{ kite.name }}
+        {% else %}
+          {{ kite.make }} {{ kite.model }}
+        {% endif %}
+      </div>
       <ul class="kite-detail-list">
         <li>Make: {{ kite.make }}</li>
         <li>Model: {{ kite.model }}</li>
         <li>Obtained: {{ kite.obtained }}</li>
       </ul>
     </div>
-    <div class="col">
+    <div class="kiteContent">
       {{ kite.content | markdownify }}
     </div>
-    <div class="col">
+    <div class="kiteImages">
       {% for image in kite.images %}
         {% assign imageCounter = imageCounter | plus: 1 %}
         <div onClick="window.showKites({{ imageCounter }})">
@@ -65,5 +70,5 @@ window.showKites = function(idx) {
       {% endfor %}
     </div>
   </div>
-  {% endfor %}
+{% endfor %}
 </div>

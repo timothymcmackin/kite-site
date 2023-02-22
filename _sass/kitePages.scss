@@ -1,0 +1,51 @@
+.kiteName {
+  font-weight: bold;
+}
+
+.kiteThumb {
+  max-width: 200px;
+  cursor: pointer;
+}
+
+.kite-detail-container {
+  font-size: 18px;
+  margin-left: 20px;
+  margin-right: 20px;
+  @include breakpoint($large) {
+    width: calc(100% - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+    max-width: 1000px;
+  }
+}
+
+.kiteRow {
+  padding-bottom: 10px;
+  padding-top: 10px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  @include breakpoint($small) {
+    flex-direction: row;
+  }
+}
+
+.kiteRow > div {
+  flex: 1 0 0%;
+}
+
+.kite-detail-list {
+  list-style-type: none;
+}
+
+.kiteContent {
+  padding-right: 20px;
+}
+
+.kiteImages {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: column;
+}

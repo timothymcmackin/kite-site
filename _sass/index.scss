@@ -1,0 +1,36 @@
+// Override the archive's main content section style to show 3 thumbs in the first row
+.initial-content {
+    padding: 0 50px 0 50px;
+}
+
+.kite-type-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.kite-type-container .type {
+  margin: 10px;
+  /* for the text */
+  position: relative;
+  text-align: center;
+}
+
+.kite-type-container .type img {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+}
+
+.kite-type-container .type .label {
+  position: absolute;
+  bottom: 8px;
+  left: 50%;
+  color: white;
+  background-color: black;
+  transform: translate(-50%, 0%);
+  white-space: nowrap;
+  padding-left: 10px;
+  padding-right: 10px;
+}
