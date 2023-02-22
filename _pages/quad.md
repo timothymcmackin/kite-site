@@ -1,7 +1,8 @@
 ---
-layout: default
+layout: kiteList
 title: Quad-line kites
 permalink: /quad/
+collection: quad
 ---
 
 <script>
