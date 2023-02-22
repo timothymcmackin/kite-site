@@ -2,6 +2,10 @@
 layout: default
 ---
 
+{% comment %}
+Pass the name of the collection as the `collection` field in the page front matter.
+{% endcomment %}
+
 <script>
   const gallery = [
   {% for kite in site[page.collection] %}
