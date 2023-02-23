@@ -66,6 +66,15 @@ Pass the name of the collection as the `collection` field in the page front matt
         {% if kite.size %}<li>Size: {{ kite.size }}</li>{% endif %}
         {% if kite.edition %}<li>Edition: {{ kite.edition }}</li>{% endif %}
         {% if kite.obtained %}<li>Obtained: {{ kite.obtained }}</li>{% endif %}
+        {% if kite.videos %}
+          <li>
+            {% for video in kite.videos %}
+            <a href="{{ video.url }}" target="_blank" title="{{ video.title }}">
+              <img src="{{ site.baseurl }}/assets/images/youtube-logo-24.png" class="youtube-icon" alt="{{ video.title }}"/>
+            </a>
+            {% endfor %}
+          </li>
+        {% endif %}
       </ul>
     </div>
     <div class="kiteContent">
