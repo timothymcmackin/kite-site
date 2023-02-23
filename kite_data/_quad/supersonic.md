@@ -2,7 +2,6 @@
 make: Revolution
 model: Supersonic
 obtained: Scott Hertenstein
-trim: Mid-vent
 images:
  - quad/supersonic_1_sm.jpg
 ---
