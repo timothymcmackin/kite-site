@@ -6,6 +6,9 @@ edition: v2
 obtained: kiteboarding.com
 images:
  - kiteboarding/v2ghost6_1_sm.png
+videos:
+  - url: https://www.youtube.com/watch?v=j8fXA1NtXOs
+    title: Downloop gybes with the 6m Ghost
 ---
 
 Just got this kite in the fall of 2022 in anticipation of hydrofoiling in moderate wind.
