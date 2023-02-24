@@ -51,7 +51,7 @@ Pass the name of the collection as the `collection` field in the page front matt
         {% if kite.name %}
           {{ kite.name }}
         {% else %}
-          {{ kite.make }} {{ kite.model }} {{ kite.trim }}
+          {{ kite.make }} {{ kite.model }} {{ kite.trim }} {{ kite.size }}
         {% endif %}
       </div>
       <ul class="kite-detail-list">
