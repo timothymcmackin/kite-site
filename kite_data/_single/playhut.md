@@ -4,7 +4,7 @@ model: Unknown
 obtained: Rhodes family
 name:
 images:
- - single/playhut_sm.jpg
+- single/playhut_sm.jpg
 ---
 
 Part of the Rhodes family collection.

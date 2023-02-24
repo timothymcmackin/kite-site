@@ -4,8 +4,8 @@ model: Unknown cellular kite
 obtained: Rhodes Family
 name: Sully
 images:
- - single/sully_1_sm.jpg
- - single/sully_2_sm.jpg
+- single/sully_1_sm.jpg
+- single/sully_2_sm.jpg
 ---
 
 Dated 1984.

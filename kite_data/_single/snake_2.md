@@ -4,7 +4,7 @@ model: Snake
 obtained: Rhodes family
 name:
 images:
- - single/snake_2_sm.jpg
+- single/snake_2_sm.jpg
 ---
 
 Part of the Rhodes family collection.

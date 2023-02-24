@@ -6,8 +6,8 @@ obtained: Kitty Hawk Kites
 givenAway: true
 name:
 images:
- - dual/quantum1.jpg
- - dual/quantum2.jpg
+- dual/quantum1.jpg
+- dual/quantum2.jpg
 ---
 
 Bought 10/21/2010 and I enjoyed it for a while but it's kind of klunky and I prefer more agile 2-liners.

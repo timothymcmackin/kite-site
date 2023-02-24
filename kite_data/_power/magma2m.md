@@ -5,7 +5,7 @@ size: 2m
 obtained: kiteforum.com
 name: Broomstick Special
 images:
- - power/magma_1_sm.jpg
+- power/magma_1_sm.jpg
 ---
 
 I got this kite in my early obsession with kite-surfing because I wanted a depower kite to practice with.

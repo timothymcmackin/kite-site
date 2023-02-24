@@ -5,10 +5,10 @@ size: 8m
 edition: v1
 obtained: kiteboarding.com
 images:
-  - kiteboarding/v1ghost8_1_sm.jpg
+- kiteboarding/v1ghost8_1_sm.jpg
 videos:
-  - url: https://www.youtube.com/watch?v=ScL8Oy9cX1Y
-    title: Gybing with the Ghost, Oct 13, 2021
+- url: https://www.youtube.com/watch?v=ScL8Oy9cX1Y
+  title: Gybing with the Ghost, Oct 13, 2021
 ---
 
 This kite changed how I feel about kiteboarding kites.

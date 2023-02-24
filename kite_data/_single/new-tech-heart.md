@@ -4,10 +4,10 @@ model: Heart Kite
 obtained: New Tech
 name:
 images:
- - single/new-tech-heart_1_sm.jpg
- - single/new-tech-heart_2_sm.jpg
- - single/new-tech-heart_3_sm.jpg
- - single/new-tech-heart_4_sm.jpg
+- single/new-tech-heart_1_sm.jpg
+- single/new-tech-heart_2_sm.jpg
+- single/new-tech-heart_3_sm.jpg
+- single/new-tech-heart_4_sm.jpg
 ---
 
 Julie saw this kite in a photo I took at the AKA convention in 2014 and had to have one.

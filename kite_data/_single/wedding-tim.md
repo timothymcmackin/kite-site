@@ -4,7 +4,7 @@ model: Wedding kite
 obtained: Homemade
 name:
 images:
- - single/weddingkites_2_sm.jpg
+- single/weddingkites_2_sm.jpg
 ---
 
 I made my wedding kite with colored pencils.

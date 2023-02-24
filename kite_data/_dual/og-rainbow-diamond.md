@@ -5,7 +5,7 @@ trim:
 obtained: Klig's Kites
 name:
 images:
- - dual/og-rainbow-diamond.jpg
+- dual/og-rainbow-diamond.jpg
 ---
 
 This is the kite that started it all when I was a little kid at Myrtle Beach.

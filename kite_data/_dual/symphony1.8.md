@@ -5,7 +5,7 @@ obtained: Kitty Hawk Kites
 trim: "1.8"
 name:
 images:
- - dual/symphony1.8.jpg
+- dual/symphony1.8.jpg
 ---
 
 I recommend the Symphony all around because it's user-friendly.

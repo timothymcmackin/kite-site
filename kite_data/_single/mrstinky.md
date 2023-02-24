@@ -4,8 +4,8 @@ model: J7.5
 obtained: Rhodes Family
 name: Mr. Stinky
 images:
- - single/mrstinky_1_sm.jpg
- - single/mrstinky_2_sm.jpg
+- single/mrstinky_1_sm.jpg
+- single/mrstinky_2_sm.jpg
 ---
 
 This foil was an old reliable friend of the Rhodes family.

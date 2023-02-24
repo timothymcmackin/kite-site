@@ -4,7 +4,7 @@ model: Banner
 obtained: Kites Fly'n Hi
 name:
 images:
- - single/banner_1_sm.jpg
+- single/banner_1_sm.jpg
 ---
 
 Julie and I got this beautiful banner on our mini-moon in Charleston and flew it at the house every day.

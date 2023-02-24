@@ -4,7 +4,7 @@ model: Delta
 obtained: Rhodes family
 name:
 images:
- - single/white_delta_sm.jpg
+- single/white_delta_sm.jpg
 ---
 
 Part of the Rhodes family collection.

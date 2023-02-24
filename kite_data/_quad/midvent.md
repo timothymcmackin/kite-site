@@ -4,8 +4,8 @@ model: B-Series
 obtained: Flying Smiles Kites
 trim: Mid-vent
 images:
- - quad/midvent_1_sm.jpg
- - quad/midvent_2_sm.jpg
+- quad/midvent_1_sm.jpg
+- quad/midvent_2_sm.jpg
 ---
 
 The mid-vent is my favorite Rev because the mesh vents smooth out the bumps in the wind.

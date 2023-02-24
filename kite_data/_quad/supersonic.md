@@ -3,7 +3,7 @@ make: Revolution
 model: Supersonic
 obtained: Scott Hertenstein
 images:
- - quad/supersonic_1_sm.jpg
+- quad/supersonic_1_sm.jpg
 ---
 
 The Supersonic is for one thing only: speed.

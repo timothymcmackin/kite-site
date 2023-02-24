@@ -5,7 +5,7 @@ size: 5m
 obtained: Conrad
 name: Betty
 images:
- - power/hornet5_stock_1_sm.jpg
+- power/hornet5_stock_1_sm.jpg
 ---
 
 Betty is a favorite of Conrad's that he sold me when he switched to Frenzys.

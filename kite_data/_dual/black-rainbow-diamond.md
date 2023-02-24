@@ -5,7 +5,7 @@ obtained: McMackins
 trim:
 name:
 images:
- - dual/black-rainbow-diamond.jpg
+- dual/black-rainbow-diamond.jpg
 ---
 
 This one's probably an old McMackin kite from our beach days.
