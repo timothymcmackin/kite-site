@@ -1,6 +1,6 @@
 ---
 make: Julie
-model: Julie's wedding kite
+model: Wedding kite
 obtained: Homemade
 name:
 images:

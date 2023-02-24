@@ -1,6 +1,6 @@
 ---
 make: Tim
-model: Tim's wedding kite
+model: Wedding kite
 obtained: Homemade
 name:
 images:
