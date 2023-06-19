@@ -8,4 +8,4 @@ images:
 ---
 
 Julie and I got this beautiful banner on our mini-moon in Charleston and flew it at the house every day.
-I finally retired it in 2022 because it was falling apart and I want to get another one.
+I finally retired it in 2022 becuase it was falling apart, and soon after bought a replacement.
