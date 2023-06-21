@@ -1,6 +1,6 @@
 ---
 make: Unknown
-model: Rainbow diamons
+model: Rainbow diamond
 obtained: Rhodes family
 name:
 images:
