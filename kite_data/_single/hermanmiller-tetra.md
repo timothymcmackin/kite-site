@@ -1,6 +1,6 @@
 ---
 make: Herman Miller
-model: Unknown
+model: Branded tetrahedral
 obtained: Rhodes Family
 name:
 images:
