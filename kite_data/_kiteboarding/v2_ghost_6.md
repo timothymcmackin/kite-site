@@ -11,7 +11,5 @@ videos:
   title: Downloop gybes with the 6m Ghost
 ---
 
-Just got this kite in the fall of 2022 in anticipation of hydrofoiling in moderate wind.
-It's a sign that I really enjoy the freedom of foiling when other people are starting to get onto twintips and doing small jumps.
-I was hoping it would hold me up to about 20 mph, but it gets to be hard to handle in the high teens.
-Maybe I should have gotten the 4m?
+Got this kite in the fall of 2022 anticipating hydrofoiling in moderate wind.
+It's small enough to throw around the sky and make it take me where I want to go, and that's a lot of fun compared to how careful and methodical I have to be with the big kites.
