@@ -7,7 +7,7 @@ obtained: kiteboarding.com
 images:
 - kiteboarding/v2ghost6_1_sm.png
 videos:
-- url: https://www.youtube.com/watch?v=j8fXA1NtXOs
+- url: https://www.youtube.com/watch?v=gCGL92Vylfk
   title: Downloop gybes with the 6m Ghost
 ---
 
