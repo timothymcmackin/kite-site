@@ -6,6 +6,7 @@ obtained: Mark Clements
 name:
 images:
 - dual/talons1.jpg
+- dual/talonstd1.jpg
 ---
 
 This Talon (with the white panels) was my first custom kite and it was a huge leap of faith to buy it.
