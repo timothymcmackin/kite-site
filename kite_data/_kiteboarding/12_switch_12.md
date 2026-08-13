@@ -12,4 +12,4 @@ givenAway: true
 ---
 
 Bought new from KHK in early 2013 and it was super reliable aside from the dodgy IDS safety failing the very first time I used it (but never again).
-I retired it with honors in 2026.
+I retired it with honors in 2026 and made some of it into a tail for the <a href="https://beaverqueen.org/" target="_blank">Beaver Queen Pageant</a>.
