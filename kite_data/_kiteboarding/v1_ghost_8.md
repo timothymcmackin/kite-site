@@ -15,3 +15,4 @@ videos:
 This kite changed how I feel about kiteboarding kites.
 It provides smooth power in loops and stays in the air in light wind.
 I also love how it drifts downwind so I can have a lot of freedom to go upwind and downwind on the hydrofoil.
+I'm amazed at how if I throw it around hard it can get me going on foil even when the bar pressure isn't strong enough to pull the bar all the way to the stopper.

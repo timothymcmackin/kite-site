@@ -6,6 +6,7 @@ edition: 2020
 obtained: Blown Kiteboarding
 images:
 - kiteboarding/20switch7_1_sm.jpg
+- kiteboarding/20switch7_2_sm.jpg
 ---
 
 Opened up this kite on my 40th birthday, a big wind day, 30 mph or more.
